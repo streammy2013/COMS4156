@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>120</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="field" FQNAME="myCDshop.GetInThread writer" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Instance field may not be initialized</problem_class>
+    <description>Instance field &lt;code&gt;writer&lt;/code&gt; may not be initialized during object construction #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>119</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="field" FQNAME="myCDshop.GetInThread write" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Instance field may not be initialized</problem_class>
+    <description>Instance field &lt;code&gt;write&lt;/code&gt; may not be initialized during object construction #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>40</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="field" FQNAME="myCDshop.SaleThread write" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Instance field may not be initialized</problem_class>
+    <description>Instance field &lt;code&gt;write&lt;/code&gt; may not be initialized during object construction #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>41</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="field" FQNAME="myCDshop.SaleThread writer" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Instance field may not be initialized</problem_class>
+    <description>Instance field &lt;code&gt;writer&lt;/code&gt; may not be initialized during object construction #loc</description>
+  </problem>
+</problems>
+

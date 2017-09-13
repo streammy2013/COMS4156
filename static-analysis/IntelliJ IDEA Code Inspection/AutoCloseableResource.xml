@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>368</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.MyCDshop MyCDshop()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">AutoCloseable used without 'try'-with-resources</problem_class>
+    <description>'FileOutputStream' used without 'try'-with-resources statement #loc</description>
+  </problem>
+</problems>
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>147</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.GetInThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly broad 'catch' block</problem_class>
+    <description>'catch' of &lt;code&gt;IOException&lt;/code&gt; is too broad, masking exceptions 'UnsupportedEncodingException' and 'FileNotFoundException' #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>69</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.SaleThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly broad 'catch' block</problem_class>
+    <description>'catch' of &lt;code&gt;IOException&lt;/code&gt; is too broad, masking exceptions 'UnsupportedEncodingException' and 'FileNotFoundException' #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>83</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.SaleThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly broad 'catch' block</problem_class>
+    <description>'catch' of &lt;code&gt;IOException&lt;/code&gt; is too broad, masking exceptions 'UnsupportedEncodingException' and 'FileNotFoundException' #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>105</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.SaleThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly broad 'catch' block</problem_class>
+    <description>'catch' of &lt;code&gt;IOException&lt;/code&gt; is too broad, masking exceptions 'UnsupportedEncodingException' and 'FileNotFoundException' #loc</description>
+  </problem>
+</problems>
+

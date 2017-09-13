@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>118</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="field" FQNAME="myCDshop.GetInThread cdshop" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Type of instance field is concrete class</problem_class>
+    <description>Type of field 'cdshop' is concrete class &lt;code&gt;MyCDshop&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>39</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="field" FQNAME="myCDshop.SaleThread cdshop" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Type of instance field is concrete class</problem_class>
+    <description>Type of field 'cdshop' is concrete class &lt;code&gt;MyCDshop&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>301</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="field" FQNAME="myCDshop.ControlThread cdshop" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Type of instance field is concrete class</problem_class>
+    <description>Type of field 'cdshop' is concrete class &lt;code&gt;MyCDshop&lt;/code&gt; #loc</description>
+  </problem>
+</problems>
+

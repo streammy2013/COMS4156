@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>12</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="field" FQNAME="myCDshop.SaleCD name" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Field is assigned but never accessed.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>26</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="field" FQNAME="myCDshop.RentCD name" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Field is assigned but never accessed.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>368</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.MyCDshop MyCDshop()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unused declaration</problem_class>
+    <description>Variable &lt;code&gt;out&lt;/code&gt; is never used</description>
+  </problem>
+</problems>
+

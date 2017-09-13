@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>431</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.MyCDshop void main(java.lang.String[] arg)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable of concrete class</problem_class>
+    <description>Local variable 'ct' of concrete class &lt;code&gt;ControlThread&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>310</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.ControlThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable of concrete class</problem_class>
+    <description>Local variable 'gt' of concrete class &lt;code&gt;GetInThread&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>313</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.ControlThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable of concrete class</problem_class>
+    <description>Local variable 'st1' of concrete class &lt;code&gt;SaleThread&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>325</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.ControlThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable of concrete class</problem_class>
+    <description>Local variable 'st' of concrete class &lt;code&gt;SaleThread&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>336</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.ControlThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable of concrete class</problem_class>
+    <description>Local variable 'rt' of concrete class &lt;code&gt;RentThread&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>341</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.ControlThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable of concrete class</problem_class>
+    <description>Local variable 'rt1' of concrete class &lt;code&gt;RentThread&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>344</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.ControlThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable of concrete class</problem_class>
+    <description>Local variable 'rt2' of concrete class &lt;code&gt;RentThread&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>347</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.ControlThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable of concrete class</problem_class>
+    <description>Local variable 'rt3' of concrete class &lt;code&gt;RentThread&lt;/code&gt; #loc</description>
+  </problem>
+</problems>
+

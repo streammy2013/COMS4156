@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>142</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.GetInThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Object allocation in loop</problem_class>
+    <description>Object allocation &lt;code&gt;new FileOutputStream()&lt;/code&gt; in loop #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>142</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.GetInThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Object allocation in loop</problem_class>
+    <description>Object allocation &lt;code&gt;new OutputStreamWriter()&lt;/code&gt; in loop #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>143</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.GetInThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Object allocation in loop</problem_class>
+    <description>Object allocation &lt;code&gt;new BufferedWriter()&lt;/code&gt; in loop #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>144</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.GetInThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Object allocation in loop</problem_class>
+    <description>Object allocation &lt;code&gt;new Date()&lt;/code&gt; in loop #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>151</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.GetInThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Object allocation in loop</problem_class>
+    <description>Object allocation &lt;code&gt;new Date()&lt;/code&gt; in loop #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>64</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.SaleThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Object allocation in loop</problem_class>
+    <description>Object allocation &lt;code&gt;new FileOutputStream()&lt;/code&gt; in loop #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>64</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.SaleThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Object allocation in loop</problem_class>
+    <description>Object allocation &lt;code&gt;new OutputStreamWriter()&lt;/code&gt; in loop #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>65</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.SaleThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Object allocation in loop</problem_class>
+    <description>Object allocation &lt;code&gt;new BufferedWriter()&lt;/code&gt; in loop #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>66</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.SaleThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Object allocation in loop</problem_class>
+    <description>Object allocation &lt;code&gt;new Date()&lt;/code&gt; in loop #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>73</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.SaleThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Object allocation in loop</problem_class>
+    <description>Object allocation &lt;code&gt;new Date()&lt;/code&gt; in loop #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>75</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.SaleThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Object allocation in loop</problem_class>
+    <description>Object allocation &lt;code&gt;new Random()&lt;/code&gt; in loop #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>78</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.SaleThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Object allocation in loop</problem_class>
+    <description>Object allocation &lt;code&gt;new FileOutputStream()&lt;/code&gt; in loop #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>78</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.SaleThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Object allocation in loop</problem_class>
+    <description>Object allocation &lt;code&gt;new OutputStreamWriter()&lt;/code&gt; in loop #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>79</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.SaleThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Object allocation in loop</problem_class>
+    <description>Object allocation &lt;code&gt;new BufferedWriter()&lt;/code&gt; in loop #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>80</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.SaleThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Object allocation in loop</problem_class>
+    <description>Object allocation &lt;code&gt;new Date()&lt;/code&gt; in loop #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>87</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.SaleThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Object allocation in loop</problem_class>
+    <description>Object allocation &lt;code&gt;new Date()&lt;/code&gt; in loop #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>100</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.SaleThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Object allocation in loop</problem_class>
+    <description>Object allocation &lt;code&gt;new FileOutputStream()&lt;/code&gt; in loop #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>100</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.SaleThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Object allocation in loop</problem_class>
+    <description>Object allocation &lt;code&gt;new OutputStreamWriter()&lt;/code&gt; in loop #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>101</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.SaleThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Object allocation in loop</problem_class>
+    <description>Object allocation &lt;code&gt;new BufferedWriter()&lt;/code&gt; in loop #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>102</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.SaleThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Object allocation in loop</problem_class>
+    <description>Object allocation &lt;code&gt;new Date()&lt;/code&gt; in loop #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>109</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.SaleThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Object allocation in loop</problem_class>
+    <description>Object allocation &lt;code&gt;new Date()&lt;/code&gt; in loop #loc</description>
+  </problem>
+</problems>
+

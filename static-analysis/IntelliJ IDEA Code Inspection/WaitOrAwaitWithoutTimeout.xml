@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>92</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.SaleThread void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'wait()' or 'await()' without timeout</problem_class>
+    <description>&lt;code&gt;wait&lt;/code&gt; without timeout #loc</description>
+  </problem>
+</problems>
+

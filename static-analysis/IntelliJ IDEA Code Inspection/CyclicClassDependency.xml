@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>116</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="class" FQNAME="myCDshop.GetInThread" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Cyclic class dependency</problem_class>
+    <description>Class 'GetInThread' is cyclically dependent on 4 other classes</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>352</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="class" FQNAME="myCDshop.MyCDshop" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Cyclic class dependency</problem_class>
+    <description>Class 'MyCDshop' is cyclically dependent on 4 other classes</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>37</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="class" FQNAME="myCDshop.SaleThread" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Cyclic class dependency</problem_class>
+    <description>Class 'SaleThread' is cyclically dependent on 4 other classes</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>299</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="class" FQNAME="myCDshop.ControlThread" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Cyclic class dependency</problem_class>
+    <description>Class 'ControlThread' is cyclically dependent on 4 other classes</description>
+  </problem>
+</problems>
+

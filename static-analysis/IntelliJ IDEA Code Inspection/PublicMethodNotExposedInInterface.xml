@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>386</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.MyCDshop boolean saleCD(int cdid, int count)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'public' method not exposed in interface</problem_class>
+    <description>'public' method &lt;code&gt;saleCD()&lt;/code&gt; is not exposed via an interface #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>422</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.MyCDshop void setRent(int cdid)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'public' method not exposed in interface</problem_class>
+    <description>'public' method &lt;code&gt;setRent()&lt;/code&gt; is not exposed via an interface #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>375</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.MyCDshop void getIn()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'public' method not exposed in interface</problem_class>
+    <description>'public' method &lt;code&gt;getIn()&lt;/code&gt; is not exposed via an interface #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>405</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.MyCDshop boolean rentCD(int cdid)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'public' method not exposed in interface</problem_class>
+    <description>'public' method &lt;code&gt;rentCD()&lt;/code&gt; is not exposed via an interface #loc</description>
+  </problem>
+</problems>
+

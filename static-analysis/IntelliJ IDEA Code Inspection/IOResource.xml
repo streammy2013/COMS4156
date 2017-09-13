@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/MyCDshop.java</file>
+    <line>368</line>
+    <module>myCDshop</module>
+    <package>myCDshop</package>
+    <entry_point TYPE="method" FQNAME="myCDshop.MyCDshop MyCDshop()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">I/O resource opened but not safely closed</problem_class>
+    <description>'FileOutputStream' should be opened in front of a 'try' block and closed in the corresponding 'finally' block #loc</description>
+  </problem>
+</problems>
+
