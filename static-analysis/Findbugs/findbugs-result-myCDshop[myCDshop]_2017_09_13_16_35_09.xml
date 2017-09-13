@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://findbugs.sourceforge.net/xsl/default.xsl"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1505268392973" analysisTimestamp="1505268390791" release="">
+  <Project projectName="myCDshop[myCDshop]">
+    <Jar>/Users/mingjiezhao/IdeaProjects/myCDshop/out/production/myCDshop/myCDshop/ControlThread.class</Jar>
+    <Jar>/Users/mingjiezhao/IdeaProjects/myCDshop/out/production/myCDshop/myCDshop/GetInThread.class</Jar>
+    <Jar>/Users/mingjiezhao/IdeaProjects/myCDshop/out/production/myCDshop/myCDshop/MyCDshop.class</Jar>
+    <Jar>/Users/mingjiezhao/IdeaProjects/myCDshop/out/production/myCDshop/myCDshop/RentCD.class</Jar>
+    <Jar>/Users/mingjiezhao/IdeaProjects/myCDshop/out/production/myCDshop/myCDshop/RentThread.class</Jar>
+    <Jar>/Users/mingjiezhao/IdeaProjects/myCDshop/out/production/myCDshop/myCDshop/SaleCD.class</Jar>
+    <Jar>/Users/mingjiezhao/IdeaProjects/myCDshop/out/production/myCDshop/myCDshop/SaleThread.class</Jar>
+    <AuxClasspathEntry>/Users/mingjiezhao/IdeaProjects/myCDshop/out/production/myCDshop</AuxClasspathEntry>
+    <SrcDir>/Users/mingjiezhao/IdeaProjects/myCDshop/src</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" instanceHash="1c2f68dbeb7c69726c127b9e0d6399f3" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="563">
+    <ShortMessage>Dead store to local variable</ShortMessage>
+    <LongMessage>Dead store to e1 in new myCDshop.MyCDshop()</LongMessage>
+    <Class classname="myCDshop.MyCDshop" primary="true">
+      <SourceLine classname="myCDshop.MyCDshop" sourcefile="MyCDshop.java" sourcepath="myCDshop/MyCDshop.java">
+        <Message>In MyCDshop.java</Message>
+      </SourceLine>
+      <Message>In class myCDshop.MyCDshop</Message>
+    </Class>
+    <Method classname="myCDshop.MyCDshop" name="&lt;init&gt;" signature="()V" isStatic="false" primary="true">
+      <SourceLine classname="myCDshop.MyCDshop" start="355" end="373" startBytecode="0" endBytecode="126" sourcefile="MyCDshop.java" sourcepath="myCDshop/MyCDshop.java"/>
+      <Message>In method new myCDshop.MyCDshop()</Message>
+    </Method>
+    <LocalVariable name="e1" register="2" pc="239" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named e1</Message>
+    </LocalVariable>
+    <SourceLine classname="myCDshop.MyCDshop" primary="true" start="368" end="368" startBytecode="239" endBytecode="239" sourcefile="MyCDshop.java" sourcepath="myCDshop/MyCDshop.java">
+      <Message>At MyCDshop.java:[line 368]</Message>
+    </SourceLine>
+    <SourceLine classname="myCDshop.MyCDshop" primary="true" start="368" end="368" startBytecode="239" endBytecode="239" sourcefile="MyCDshop.java" sourcepath="myCDshop/MyCDshop.java">
+      <Message>At MyCDshop.java:[line 368]</Message>
+    </SourceLine>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="e1"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" instanceHash="948d66d134a1dee22bf6c6ed72e103b" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Method may fail to clean up stream or resource</ShortMessage>
+    <LongMessage>new myCDshop.MyCDshop() may fail to clean up java.io.OutputStream</LongMessage>
+    <Class classname="myCDshop.MyCDshop" primary="true">
+      <SourceLine classname="myCDshop.MyCDshop" sourcefile="MyCDshop.java" sourcepath="myCDshop/MyCDshop.java">
+        <Message>In MyCDshop.java</Message>
+      </SourceLine>
+      <Message>In class myCDshop.MyCDshop</Message>
+    </Class>
+    <Method classname="myCDshop.MyCDshop" name="&lt;init&gt;" signature="()V" isStatic="false" primary="true">
+      <SourceLine classname="myCDshop.MyCDshop" start="355" end="373" startBytecode="0" endBytecode="415" sourcefile="MyCDshop.java" sourcepath="myCDshop/MyCDshop.java"/>
+      <Message>In method new myCDshop.MyCDshop()</Message>
+    </Method>
+    <Class classname="java.io.OutputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.OutputStream" sourcefile="OutputStream.java" sourcepath="java/io/OutputStream.java">
+        <Message>In OutputStream.java</Message>
+      </SourceLine>
+      <Message>Reference type java.io.OutputStream</Message>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING">
+      <Message>1 instances of obligation remaining</Message>
+    </Int>
+    <SourceLine classname="myCDshop.MyCDshop" primary="true" start="368" end="368" startBytecode="236" endBytecode="236" sourcefile="MyCDshop.java" sourcepath="myCDshop/MyCDshop.java" role="SOURCE_LINE_OBLIGATION_CREATED">
+      <Message>Obligation to clean up resource created at MyCDshop.java:[line 368] is not discharged</Message>
+    </SourceLine>
+    <SourceLine classname="myCDshop.MyCDshop" start="372" end="372" startBytecode="240" endBytecode="240" sourcefile="MyCDshop.java" sourcepath="myCDshop/MyCDshop.java" role="SOURCE_LINE_PATH_CONTINUES">
+      <Message>Path continues at MyCDshop.java:[line 372]</Message>
+    </SourceLine>
+    <SourceLine classname="myCDshop.MyCDshop" start="373" end="373" startBytecode="248" endBytecode="248" sourcefile="MyCDshop.java" sourcepath="myCDshop/MyCDshop.java" role="SOURCE_LINE_PATH_CONTINUES">
+      <Message>Path continues at MyCDshop.java:[line 373]</Message>
+    </SourceLine>
+    <String value="{OutputStream x 1}" role="STRING_REMAINING_OBLIGATIONS">
+      <Message>Remaining obligations: {OutputStream x 1}</Message>
+    </String>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" rank="16" abbrev="OS" category="BAD_PRACTICE" instanceHash="b5c2ec5c2bfee3c11131771755cfdc5b" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Method may fail to close stream</ShortMessage>
+    <LongMessage>new myCDshop.MyCDshop() may fail to close stream</LongMessage>
+    <Class classname="myCDshop.MyCDshop" primary="true">
+      <SourceLine classname="myCDshop.MyCDshop" sourcefile="MyCDshop.java" sourcepath="myCDshop/MyCDshop.java">
+        <Message>In MyCDshop.java</Message>
+      </SourceLine>
+      <Message>In class myCDshop.MyCDshop</Message>
+    </Class>
+    <Method classname="myCDshop.MyCDshop" name="&lt;init&gt;" signature="()V" isStatic="false" primary="true">
+      <SourceLine classname="myCDshop.MyCDshop" start="355" end="373" startBytecode="0" endBytecode="126" sourcefile="MyCDshop.java" sourcepath="myCDshop/MyCDshop.java"/>
+      <Message>In method new myCDshop.MyCDshop()</Message>
+    </Method>
+    <Type descriptor="Ljava/io/OutputStream;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.OutputStream" start="46" end="152" sourcefile="OutputStream.java" sourcepath="java/io/OutputStream.java">
+        <Message>At OutputStream.java:[lines 46-152]</Message>
+      </SourceLine>
+      <Message>Need to close java.io.OutputStream </Message>
+    </Type>
+    <SourceLine classname="myCDshop.MyCDshop" primary="true" start="368" end="368" startBytecode="231" endBytecode="231" sourcefile="MyCDshop.java" sourcepath="myCDshop/MyCDshop.java">
+      <Message>At MyCDshop.java:[line 368]</Message>
+    </SourceLine>
+    <SourceLine classname="myCDshop.MyCDshop" primary="true" start="368" end="368" startBytecode="231" endBytecode="231" sourcefile="MyCDshop.java" sourcepath="myCDshop/MyCDshop.java">
+      <Message>At MyCDshop.java:[line 368]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" instanceHash="a835e5bd0b54246f071be0b5a9de4faa" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Unread field</ShortMessage>
+    <LongMessage>Unread field: myCDshop.RentCD.name</LongMessage>
+    <Class classname="myCDshop.RentCD" primary="true">
+      <SourceLine classname="myCDshop.RentCD" sourcefile="MyCDshop.java" sourcepath="myCDshop/MyCDshop.java">
+        <Message>In MyCDshop.java</Message>
+      </SourceLine>
+      <Message>In class myCDshop.RentCD</Message>
+    </Class>
+    <Field classname="myCDshop.RentCD" name="name" signature="Ljava/lang/String;" isStatic="false" primary="true">
+      <SourceLine classname="myCDshop.RentCD" sourcefile="MyCDshop.java" sourcepath="myCDshop/MyCDshop.java">
+        <Message>In MyCDshop.java</Message>
+      </SourceLine>
+      <Message>Field myCDshop.RentCD.name</Message>
+    </Field>
+    <SourceLine classname="myCDshop.RentCD" primary="true" start="32" end="32" startBytecode="11" endBytecode="11" sourcefile="MyCDshop.java" sourcepath="myCDshop/MyCDshop.java">
+      <Message>At MyCDshop.java:[line 32]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="DM_NEXTINT_VIA_NEXTDOUBLE" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" instanceHash="40f0baaf5f9044fce7c32a1a0ebe95a2" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Use the nextInt method of Random rather than nextDouble to generate a random integer</ShortMessage>
+    <LongMessage>myCDshop.RentThread.run() uses the nextDouble method of Random to generate a random integer; using nextInt is more efficient</LongMessage>
+    <Class classname="myCDshop.RentThread" primary="true">
+      <SourceLine classname="myCDshop.RentThread" sourcefile="MyCDshop.java" sourcepath="myCDshop/MyCDshop.java">
+        <Message>In MyCDshop.java</Message>
+      </SourceLine>
+      <Message>In class myCDshop.RentThread</Message>
+    </Class>
+    <Method classname="myCDshop.RentThread" name="run" signature="()V" isStatic="false" primary="true">
+      <SourceLine classname="myCDshop.RentThread" start="173" end="289" startBytecode="0" endBytecode="1887" sourcefile="MyCDshop.java" sourcepath="myCDshop/MyCDshop.java"/>
+      <Message>In method myCDshop.RentThread.run()</Message>
+    </Method>
+    <SourceLine classname="myCDshop.RentThread" primary="true" start="173" end="173" startBytecode="7" endBytecode="7" sourcefile="MyCDshop.java" sourcepath="myCDshop/MyCDshop.java">
+      <Message>At MyCDshop.java:[line 173]</Message>
+    </SourceLine>
+    <SourceLine classname="myCDshop.RentThread" primary="true" start="173" end="173" startBytecode="7" endBytecode="7" sourcefile="MyCDshop.java" sourcepath="myCDshop/MyCDshop.java">
+      <Message>At MyCDshop.java:[line 173]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="RV_01_TO_INT" priority="1" rank="1" abbrev="RV" category="CORRECTNESS" instanceHash="7edad0f9ae067fbe3bc7e4911dfe13f0" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="440">
+    <ShortMessage>Random value from 0 to 1 is coerced to the integer 0</ShortMessage>
+    <LongMessage>myCDshop.RentThread.run() uses generates a random value from 0 to 1 and then coerces that value to the integer 0</LongMessage>
+    <Class classname="myCDshop.RentThread" primary="true">
+      <SourceLine classname="myCDshop.RentThread" sourcefile="MyCDshop.java" sourcepath="myCDshop/MyCDshop.java">
+        <Message>In MyCDshop.java</Message>
+      </SourceLine>
+      <Message>In class myCDshop.RentThread</Message>
+    </Class>
+    <Method classname="myCDshop.RentThread" name="run" signature="()V" isStatic="false" primary="true">
+      <SourceLine classname="myCDshop.RentThread" start="173" end="289" startBytecode="0" endBytecode="1887" sourcefile="MyCDshop.java" sourcepath="myCDshop/MyCDshop.java"/>
+      <Message>In method myCDshop.RentThread.run()</Message>
+    </Method>
+    <SourceLine classname="myCDshop.RentThread" primary="true" start="195" end="195" startBytecode="227" endBytecode="227" sourcefile="MyCDshop.java" sourcepath="myCDshop/MyCDshop.java">
+      <Message>At MyCDshop.java:[line 195]</Message>
+    </SourceLine>
+    <SourceLine classname="myCDshop.RentThread" primary="true" start="195" end="195" startBytecode="227" endBytecode="227" sourcefile="MyCDshop.java" sourcepath="myCDshop/MyCDshop.java">
+      <Message>At MyCDshop.java:[line 195]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" instanceHash="81752c3f7a9dc138b92a8e58e524e587" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Unread field</ShortMessage>
+    <LongMessage>Unread field: myCDshop.SaleCD.name</LongMessage>
+    <Class classname="myCDshop.SaleCD" primary="true">
+      <SourceLine classname="myCDshop.SaleCD" sourcefile="MyCDshop.java" sourcepath="myCDshop/MyCDshop.java">
+        <Message>In MyCDshop.java</Message>
+      </SourceLine>
+      <Message>In class myCDshop.SaleCD</Message>
+    </Class>
+    <Field classname="myCDshop.SaleCD" name="name" signature="Ljava/lang/String;" isStatic="false" primary="true">
+      <SourceLine classname="myCDshop.SaleCD" sourcefile="MyCDshop.java" sourcepath="myCDshop/MyCDshop.java">
+        <Message>In MyCDshop.java</Message>
+      </SourceLine>
+      <Message>Field myCDshop.SaleCD.name</Message>
+    </Field>
+    <SourceLine classname="myCDshop.SaleCD" primary="true" start="18" end="18" startBytecode="11" endBytecode="11" sourcefile="MyCDshop.java" sourcepath="myCDshop/MyCDshop.java">
+      <Message>At MyCDshop.java:[line 18]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="DM_NEXTINT_VIA_NEXTDOUBLE" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" instanceHash="ec35ae5da0681cac3ee6bda3fc85dd99" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Use the nextInt method of Random rather than nextDouble to generate a random integer</ShortMessage>
+    <LongMessage>myCDshop.SaleThread.run() uses the nextDouble method of Random to generate a random integer; using nextInt is more efficient</LongMessage>
+    <Class classname="myCDshop.SaleThread" primary="true">
+      <SourceLine classname="myCDshop.SaleThread" sourcefile="MyCDshop.java" sourcepath="myCDshop/MyCDshop.java">
+        <Message>In MyCDshop.java</Message>
+      </SourceLine>
+      <Message>In class myCDshop.SaleThread</Message>
+    </Class>
+    <Method classname="myCDshop.SaleThread" name="run" signature="()V" isStatic="false" primary="true">
+      <SourceLine classname="myCDshop.SaleThread" start="54" end="113" startBytecode="0" endBytecode="1077" sourcefile="MyCDshop.java" sourcepath="myCDshop/MyCDshop.java"/>
+      <Message>In method myCDshop.SaleThread.run()</Message>
+    </Method>
+    <SourceLine classname="myCDshop.SaleThread" primary="true" start="54" end="54" startBytecode="7" endBytecode="7" sourcefile="MyCDshop.java" sourcepath="myCDshop/MyCDshop.java">
+      <Message>At MyCDshop.java:[line 54]</Message>
+    </SourceLine>
+    <SourceLine classname="myCDshop.SaleThread" primary="true" start="54" end="54" startBytecode="7" endBytecode="7" sourcefile="MyCDshop.java" sourcepath="myCDshop/MyCDshop.java">
+      <Message>At MyCDshop.java:[line 54]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugCategory category="BAD_PRACTICE">
+    <Description>Bad practice</Description>
+  </BugCategory>
+  <BugCategory category="PERFORMANCE">
+    <Description>Performance</Description>
+  </BugCategory>
+  <BugCategory category="CORRECTNESS">
+    <Description>Correctness</Description>
+  </BugCategory>
+  <BugCategory category="STYLE">
+    <Description>Dodgy code</Description>
+  </BugCategory>
+  <BugCategory category="EXPERIMENTAL">
+    <Description>Experimental</Description>
+  </BugCategory>
+  <BugPattern type="DLS_DEAD_LOCAL_STORE" abbrev="DLS" category="STYLE">
+    <ShortDescription>Dead store to local variable</ShortDescription>
+    <Details><![CDATA[
+
+<p>
+This instruction assigns a value to a local variable,
+but the value is not read or used in any subsequent instruction.
+Often, this indicates an error, because the value computed is never
+used.
+</p>
+<p>
+Note that Sun's javac compiler often generates dead stores for
+final local variables.  Because FindBugs is a bytecode-based tool,
+there is no easy way to eliminate these false positives.
+</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="RV_01_TO_INT" abbrev="RV" category="CORRECTNESS">
+    <ShortDescription>Random value from 0 to 1 is coerced to the integer 0</ShortDescription>
+    <Details><![CDATA[
+
+  <p>A random value from 0 to 1 is being coerced to the integer value 0. You probably
+want to multiple the random value by something else before coercing it to an integer, or use the <code>Random.nextInt(n)</code> method.
+</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="URF_UNREAD_FIELD" abbrev="UrF" category="PERFORMANCE">
+    <ShortDescription>Unread field</ShortDescription>
+    <Details><![CDATA[
+
+  <p> This field is never read.&nbsp; Consider removing it from the class.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="OBL_UNSATISFIED_OBLIGATION" abbrev="OBL" category="EXPERIMENTAL">
+    <ShortDescription>Method may fail to clean up stream or resource</ShortDescription>
+    <Details><![CDATA[
+          
+          <p>
+          This method may fail to clean up (close, dispose of) a stream,
+          database object, or other
+          resource requiring an explicit cleanup operation.
+          </p>
+
+          <p>
+          In general, if a method opens a stream or other resource,
+          the method should use a try/finally block to ensure that
+          the stream or resource is cleaned up before the method
+          returns.
+          </p>
+
+          <p>
+          This bug pattern is essentially the same as the
+          OS_OPEN_STREAM and ODR_OPEN_DATABASE_RESOURCE
+          bug patterns, but is based on a different
+          (and hopefully better) static analysis technique.
+          We are interested is getting feedback about the
+          usefulness of this bug pattern.
+          To send feedback, either:
+          </p>
+          <ul>
+            <li>send email to findbugs@cs.umd.edu</li>
+            <li>file a bug report: <a href="http://findbugs.sourceforge.net/reportingBugs.html">http://findbugs.sourceforge.net/reportingBugs.html</a></li>
+          </ul>
+
+          <p>
+          In particular,
+          the false-positive suppression heuristics for this
+          bug pattern have not been extensively tuned, so
+          reports about false positives are helpful to us.
+          </p>
+
+          <p>
+          See Weimer and Necula, <i>Finding and Preventing Run-Time Error Handling Mistakes</i>, for
+          a description of the analysis technique.
+          </p>
+          
+      ]]></Details>
+  </BugPattern>
+  <BugPattern type="DM_NEXTINT_VIA_NEXTDOUBLE" abbrev="Dm" category="PERFORMANCE">
+    <ShortDescription>Use the nextInt method of Random rather than nextDouble to generate a random integer</ShortDescription>
+    <Details><![CDATA[
+
+  <p>If <code>r</code> is a <code>java.util.Random</code>, you can generate a random number from <code>0</code> to <code>n-1</code>
+using <code>r.nextInt(n)</code>, rather than using <code>(int)(r.nextDouble() * n)</code>.
+</p>
+<p>The argument to nextInt must be positive. If, for example, you want to generate a random
+value from -99 to 0, use <code>-r.nextInt(100)</code>.
+</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="OS_OPEN_STREAM" abbrev="OS" category="BAD_PRACTICE">
+    <ShortDescription>Method may fail to close stream</ShortDescription>
+    <Details><![CDATA[
+
+<p> The method creates an IO stream object, does not assign it to any
+fields, pass it to other methods that might close it,
+or return it, and does not appear to close
+the stream on all paths out of the method.&nbsp; This may result in
+a file descriptor leak.&nbsp; It is generally a good
+idea to use a <code>finally</code> block to ensure that streams are
+closed.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugCode abbrev="OS">
+    <Description>Stream not closed on all paths</Description>
+  </BugCode>
+  <BugCode abbrev="RV" cweid="440">
+    <Description>Bad use of return value from method</Description>
+  </BugCode>
+  <BugCode abbrev="OBL">
+    <Description>Unsatisfied obligation to clean up stream or resource</Description>
+  </BugCode>
+  <BugCode abbrev="UrF">
+    <Description>Unread field</Description>
+  </BugCode>
+  <BugCode abbrev="Dm">
+    <Description>Dubious method used</Description>
+  </BugCode>
+  <BugCode abbrev="DLS" cweid="563">
+    <Description>Dead local store</Description>
+  </BugCode>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 12 Sep 2017 22:06:30 -0400" total_classes="7" referenced_classes="67" total_bugs="8" total_size="288" num_packages="1" java_version="1.8.0_152-release" vm_version="25.152-b11" cpu_seconds="261.05" clock_seconds="66518.60" peak_mbytes="687.18" alloc_mbytes="725.00" gc_seconds="7.39" priority_2="6" priority_1="2">
+    <FileStats path="myCDshop/MyCDshop.java" bugCount="8" size="288" bugHash="289c81d619930c93dd998cef2fd24f9b"/>
+    <PackageStats package="myCDshop" total_bugs="8" total_types="7" total_size="288" priority_2="6" priority_1="2">
+      <ClassStats class="myCDshop.ControlThread" sourceFile="MyCDshop.java" interface="false" size="30" bugs="0"/>
+      <ClassStats class="myCDshop.GetInThread" sourceFile="MyCDshop.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="myCDshop.MyCDshop" sourceFile="MyCDshop.java" interface="false" size="60" bugs="3" priority_2="2" priority_1="1"/>
+      <ClassStats class="myCDshop.RentCD" sourceFile="MyCDshop.java" interface="false" size="10" bugs="1" priority_2="1"/>
+      <ClassStats class="myCDshop.RentThread" sourceFile="MyCDshop.java" interface="false" size="95" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="myCDshop.SaleCD" sourceFile="MyCDshop.java" interface="false" size="10" bugs="1" priority_2="1"/>
+      <ClassStats class="myCDshop.SaleThread" sourceFile="MyCDshop.java" interface="false" size="56" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="326" invocations="503" avgMicrosecondsPerInvocation="649" maxMicrosecondsPerInvocation="66747" standardDeviationMircosecondsPerInvocation="3271"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="304" invocations="506" avgMicrosecondsPerInvocation="602" maxMicrosecondsPerInvocation="39879" standardDeviationMircosecondsPerInvocation="2026"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.StreamResourceTracker" totalMilliseconds="241" invocations="81" avgMicrosecondsPerInvocation="2981" maxMicrosecondsPerInvocation="13542" standardDeviationMircosecondsPerInvocation="2549"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="178" invocations="67" avgMicrosecondsPerInvocation="2662" maxMicrosecondsPerInvocation="121252" standardDeviationMircosecondsPerInvocation="14646"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="172" invocations="67" avgMicrosecondsPerInvocation="2574" maxMicrosecondsPerInvocation="90862" standardDeviationMircosecondsPerInvocation="11072"/>
+      <ClassProfile name="edu.umd.cs.findbugs.FindBugs2" totalMilliseconds="97" invocations="2" avgMicrosecondsPerInvocation="48795" maxMicrosecondsPerInvocation="60482" standardDeviationMircosecondsPerInvocation="11687"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="93" invocations="189" avgMicrosecondsPerInvocation="492" maxMicrosecondsPerInvocation="26710" standardDeviationMircosecondsPerInvocation="2154"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="68" invocations="24" avgMicrosecondsPerInvocation="2861" maxMicrosecondsPerInvocation="16000" standardDeviationMircosecondsPerInvocation="5173"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="54" invocations="67" avgMicrosecondsPerInvocation="810" maxMicrosecondsPerInvocation="38952" standardDeviationMircosecondsPerInvocation="4712"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="47" invocations="20" avgMicrosecondsPerInvocation="2350" maxMicrosecondsPerInvocation="10030" standardDeviationMircosecondsPerInvocation="3136"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="42" invocations="16" avgMicrosecondsPerInvocation="2654" maxMicrosecondsPerInvocation="24224" standardDeviationMircosecondsPerInvocation="6085"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="39" invocations="16" avgMicrosecondsPerInvocation="2481" maxMicrosecondsPerInvocation="32016" standardDeviationMircosecondsPerInvocation="7633"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
